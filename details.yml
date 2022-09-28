@@ -1,54 +1,105 @@
----
-# Personal details
-name: Friedrich Nietzsche
-address:
-- Humboldtstraße 36
-- 99425 Weimar
-- Prussia
-phone: "+49 03643 545400"
-email: friedrich@thevoid.de
-# Insert URLs without http://
-urls:
-- wki.pe/friedrich_nietzsche
-- twitter.com/tinynietzsche
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
 
-# Sections
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
-intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
+    # Profile information
+    name: Elias-Vasileios Varelas
+    tagline: Undergraduate Student at Ionian University, Department of Informatics
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: p18vare@ionio.gr
+    #phone: 
+    timezone: Athens Timezone
+    linkedin: elias-varelas-526391b8
+    github: hlias31
+    stack-overflow: 15214068/eliasvarelas
+    #pdf: http://www.africau.edu/images/de
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Greek
+          level: native
+
+        - idiom: English
+          level: C2
+
+        - idiom: German
+          level: B1
+
+    interests:
+      title: Interests
+      info:
+        - item: Gaming
+          link:
+
+        - item: Water Polo
+          link:
+
+        - item: Lifeguarding
+          link:
+career-profile:
+    title: Career Profile
+    summary: |
+      My name is Elias Varelas and I am an undergraduate student at Ionian University, Department
+      of Informatics, based at Corfu, Greece. I was born in Alexandroupolis, which is located at the north-eastern part of Greece.
+      I began experimenting with computers at the age of 7, first as a part of a big gaming comunity such as World of Warcraft and as i got older,
+      specifically at the age of 13, i began experimenting with hardware. At the age of 13 years old, i build my first gaming Computer.
+education:
+    title: Education
+    info:
+      - degree: Undergraduate Student
+        university: Ionian University
+        time: 2018 - present
+        details: |
+          The Ionian University, so far, has taught me how to work with others, how to form new connections with people of same interests. On the technical aspect of my degree,
+          i learned the usage of programming languages such as C, C++, Python, Java, PHP, Javascript, MySQL, Oracle SQL,
+          HTML4, HTML5 CSS. I completed my thesis which was the create of an online Information System with the purpose of assisting Neurologists with managing their patients
+          as well as keep track of their patients' health, more specifically, tracking patient medication, symptoms, scales of neurodegeneration in their brain, amongst other things.
+experiences:
+    title: Experiences
+    info:
+      - role: IT Specialist
+        time: 2022
+        company: Thrace Mills I. Ouzounopoulos, Alexandroupolis, Greece
+        details: |
+          As a part of my degree i served two months in the IT department of a large flour corporation, helping with System Maintaince, Software and Hardware upgrades as well as a Cyber Security advisor. 
+          I also helped the organization create and implement an IT Policy while additionally i took part in the incorporation of new policies such as Acceptable Use Policy, Email Policy, Clean Desk Policy, to name a few.
+          It is safe to say, those were two pretty full months. And i enjoyed every single day!
+
+publications:
+    title: Publications
+    intro: |
+    papers:
+      - title: The Meaning of Metadata
+        authors: Elias-Vasileios Varelas
 
 skills:
-- Aesthetics, Ethics, Metaphysics, Nihilism
-- Psychology, Ontology, Poetry, Value theory
-- Voluntarism, Tragedy, Fact–value distinction
-- Anti-foundationalism, Philosophy of history
+    title: Programming Skills
 
-experience:
-- years: 1879--1889
-  employer: Freiberufler
-  job: Freier Philosoph
-  city: Sils-Maria
-- years: 1869–-1879
-  employer: Universität Basel
-  job: Professor für klassische Philologie
-  city: Basel
-- years: 1867--1868
-  employer: Preußische Artillerie
-  job: Kanonier
-  city: Naumburg
+    toolset:
+      - name: PHP
+        level: 90%
 
-education:
-- year: 1867
-  subject: Philology
-  institute: Universität Leipzig
-  city: Leipzig
-- year: 1864
-  subject: Abitur
-  institute: Schulpforta
-  city: Naumburg
+      - name: Javascript & jQuery
+        level: 40%
 
-# Settings
-mainfont: Hoefler Text
-fontsize: 10pt
-lang: en-GB
-geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
----
+      - name: C / C++
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Python
+        level: 55%
+
+      - name: Wordpress
+        level: 60%
+
+      - name: Linux Commands
+        level: 80%
